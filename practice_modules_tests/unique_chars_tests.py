@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import unittest
-from unique_chars import unique, unique_chars
+from practice_modules.unique_chars import unique, unique_chars
 
 
 class TestUniqueChars(unittest.TestCase):

@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import unittest
-from mcnuggets import mcnuggets
+from practice_modules.mcnuggets import mcnuggets
 
 
 class Test_mcnuggets(unittest.TestCase):

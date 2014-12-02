@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import unittest
-from python_practice.practice_modules.is_prime import is_prime, is_prime2, is_prime3
+from practice_modules.is_prime import is_prime, is_prime2, is_prime3
 
 class TestIsPrime(unittest.TestCase):
 

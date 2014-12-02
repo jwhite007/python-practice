@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import unittest
-import rotate_matrix
+from practice_modules import rotate_matrix
 
 
 class TestRotateMatrix(unittest.TestCase):

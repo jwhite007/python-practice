@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import unittest
-from python_practice.practice_modules.are_anagrams import are_anagrams
+from practice_modules.are_anagrams import are_anagrams
 
 class TestAreAnagrams(unittest.TestCase):
     def test_are_anagrams(self):

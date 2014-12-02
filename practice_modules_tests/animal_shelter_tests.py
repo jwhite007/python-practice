@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import unittest
-from python_practice.practice_modules.animal_shelter import AnimalShelter
+from practice_modules.animal_shelter import AnimalShelter
 
 class TestAnimalShelter(unittest.TestCase):
     def setUp(self):

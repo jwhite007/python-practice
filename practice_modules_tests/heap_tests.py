@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import unittest
-from python_practice.practice_modules.heap import BinHeap
+from practice_modules.heap import BinHeap
 from random import randrange
 
 

@@ -3,7 +3,7 @@
 from setuptools import setup
 
 long_description = """
-This is a package for organizing and testing various python practice algorithms
+This is a package for organizing and testing various python practice algorithms.
 """
 
 setup(

@@ -1,7 +1,7 @@
 #! /usr/bin/env python
 
 import unittest
-from python_practice.practice_modules.common import common, common_wodd
+from practice_modules.common import common, common_wodd
 
 
 class TestCommon(unittest.TestCase):
