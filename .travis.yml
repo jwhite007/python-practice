@@ -1,0 +1,17 @@
+language: python
+python:
+  - "2.7"
+# command to install dependencies
+install:
+  - "pip install -r requirements.txt"
+  - "python setup.py install"
+# command to run tests
+script:
+  - ./practice_modules_tests/animal_shelter_tests.py
+  - ./practice_modules_tests/are_anagrams_tests.py
+  - ./practice_modules_tests/common_tests.py
+  - ./practice_modules_tests/heap_tests.py
+  - ./practice_modules_tests/is_prime_tests.py
+  - ./practice_modules_tests/mcnuggets_tests.py
+  - ./practice_modules_tests/rotate_matrix_tests.py
+  - ./practice_modules_tests/unique_chars_tests.py
