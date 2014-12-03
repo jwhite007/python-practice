@@ -22,7 +22,7 @@ def fact_rec(n):
         return n * fact_rec(n - 1)
 
 
-def combo(n, r, order=True, repetition=True):
+def comb_perm(n, r, order=True, repetition=True):
     if order:
         if repetition:
             return n**r
@@ -36,17 +36,6 @@ def combo(n, r, order=True, repetition=True):
 
 
 if __name__ == '__main__':
-    # from timeit import timeit
-    # print fact(5)
-    # print fact_rec(5)
-    # print timeit(stmt="fact(5)",
-    #              setup="from __main__ import fact")
-    # print timeit(stmt="fact_rec(5)",
-    #              setup="from __main__ import fact_rec")
-    # print combo(2, 2, order=False, repetition=False)
-    # print combo(4, 2, order=False)
-    # print combo(4, 2, repetition=False)
-    # print combo(4, 2)
     # for i in xrange(2, 11):
-    #     print combo(i, 2, order=False, repetition=False)
-    print combo(10, 2, repetition=False)
+    #     print comb_perm(i, 2, order=False, repetition=False)
+    print comb_perm(5, 2, order=False, repetition=False)
