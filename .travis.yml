@@ -10,6 +10,7 @@ script:
   - ./practice_modules_tests/are_anagrams_tests.py
   - ./practice_modules_tests/best_profit_tests.py
   - ./practice_modules_tests/common_tests.py
+  - ./practice_modules_tests/decimal_conversion_tests.py
   - ./practice_modules_tests/heap_tests.py
   - ./practice_modules_tests/is_prime_tests.py
   - ./practice_modules_tests/rotate_matrix_tests.py
