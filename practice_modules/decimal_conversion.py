@@ -50,4 +50,7 @@ def dec_to_bin_rec(dec):
 
 
 if __name__ == '__main__':
-    print dec_to_base(100, 8)
+    from timeit import timeit
+    # print dec_to_base(100, 8)
+    print timeit(stmt='dec_to_base(100, 8)', setup='from __main__ import dec_to_base')
+    print timeit(stmt='dec_to_base_rec(100, 8)', setup='from __main__ import dec_to_base_rec')
