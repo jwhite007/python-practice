@@ -1,13 +1,9 @@
 #! /usr/bin/env python
 
 import unittest
-from practice_modules.is_prime import is_prime, is_prime2, is_prime3
+from practice_modules.is_prime import is_prime
 
 class TestIsPrime(unittest.TestCase):
-
-    def test_p2vp3(self):
-        alist = range(1, 10001)
-        self.assertListEqual(filter(is_prime2, alist), filter(is_prime3, alist))
 
     def test_is_prime(self):
         self.assertEqual(True, is_prime(11))
