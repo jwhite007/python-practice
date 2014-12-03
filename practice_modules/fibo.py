@@ -1,13 +1,6 @@
 #!/usr/bin/env python
 
-import timeit
-
-
 def fib(n):
-    """These are some lines of Documentaion
-
-    testing documentation
-    """
     result = []
     a, b = 0, 1
     while b < n:
@@ -30,10 +23,13 @@ def fib_rec(n, a=1, b=1, result=[]):
 
 
 if __name__ == '__main__':
+    from timeit import timeit
     result = []
     # print(fib_rec(40))
     # print fib(40)
     setup = "from __main__ import fib_rec; result = []"
-    fib = timeit.timeit(stmt="fib(40)", setup="from __main__ import fib", number=100000)
-    fib_rec = timeit.timeit(stmt="fib_rec(1, 1, 40, result)", setup=setup, number=100000)
+    fib = timeit(stmt="fib(40)", setup="from __main__ import fib", number=100000)
+    fib_rec = timeit(stmt="fib_rec(1, 1, 40, result)", setup=setup, number=100000)
+    print fib
+    print fib_rec
     print fib / fib_rec
