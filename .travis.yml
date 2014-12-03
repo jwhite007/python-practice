@@ -8,7 +8,7 @@ install:
 script:
   - ./practice_modules_tests/animal_shelter_tests.py
   - ./practice_modules_tests/are_anagrams_tests.py
-  - ./practice_modules_tests/best_profit.py
+  - ./practice_modules_tests/best_profit_tests.py
   - ./practice_modules_tests/common_tests.py
   - ./practice_modules_tests/heap_tests.py
   - ./practice_modules_tests/is_prime_tests.py
