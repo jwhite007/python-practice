@@ -19,10 +19,10 @@ def handshakes_rec(people):
         return handshakes
 
 if __name__ == '__main__':
-    # print handshakes_rec(5)
-    from timeit import timeit
-    from random import randrange
-    print timeit(stmt="handshakes(randrange(100))",
-                 setup="from __main__ import handshakes, randrange")
-    print timeit(stmt="handshakes_rec(randrange(100))",
-                 setup="from __main__ import handshakes_rec, randrange")
+    print handshakes(5)
+    # from timeit import timeit
+    # from random import randrange
+    # print timeit(stmt="handshakes(randrange(100))",
+    #              setup="from __main__ import handshakes, randrange")
+    # print timeit(stmt="handshakes_rec(randrange(100))",
+    #              setup="from __main__ import handshakes_rec, randrange")

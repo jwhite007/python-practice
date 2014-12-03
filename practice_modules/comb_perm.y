@@ -47,5 +47,6 @@ if __name__ == '__main__':
     # print combo(4, 2, order=False)
     # print combo(4, 2, repetition=False)
     # print combo(4, 2)
-    for i in xrange(2, 11):
-        print combo(i, 2, order=False, repetition=False)
+    # for i in xrange(2, 11):
+    #     print combo(i, 2, order=False, repetition=False)
+    print combo(10, 2, repetition=False)

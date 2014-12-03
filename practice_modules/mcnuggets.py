@@ -1,6 +1,5 @@
 #! /usr/bin/env python
 
-
 def mcnuggets(n):
     x = 6
     y = 9
@@ -14,8 +13,8 @@ def mcnuggets(n):
 
 
 def mcnuggets2(n):
-    import pdb
-    pdb.set_trace()
+    # import pdb
+    # pdb.set_trace()
     minmc = [0] * (n + 1)
     mlist = [6, 9, 20]
     for i in range(n + 1):
@@ -31,7 +30,6 @@ def mcnuggets2(n):
 
 class Accumulator(object):
     pass
-
 
 def mcnuggets_rec(n):
     x = 20

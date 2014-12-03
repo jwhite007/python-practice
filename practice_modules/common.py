@@ -2,7 +2,6 @@
 
 from collections import defaultdict
 
-
 def common(*args):
     args = list(args)
     for i in range(len(args)):
@@ -40,4 +39,4 @@ if __name__ == '__main__':
     l1 = [1, 2, 3, 8]
     l2 = [3, 4, 5, 8]
     l3 = [3, 6, 7, 8, 8]
-    common(l1, l2, l3)
+    print common(l1, l2, l3)
