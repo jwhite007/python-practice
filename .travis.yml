@@ -13,5 +13,7 @@ script:
   - ./practice_modules_tests/decimal_conversion_tests.py
   - ./practice_modules_tests/heap_tests.py
   - ./practice_modules_tests/is_prime_tests.py
+  - ./practice_modules_tests/min_max_tests.py
+  - ./practice_modules_tests/reverse_tests.py
   - ./practice_modules_tests/rotate_matrix_tests.py
   - ./practice_modules_tests/unique_chars_tests.py
