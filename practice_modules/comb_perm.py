@@ -3,11 +3,16 @@
 
 def fact(n):
     fact = 1
-    while n - 1 > 1:
+    while n > 1:
         fact *= n
         n -= 1
     return fact
 
+def fact1(n):
+    fact = 1
+    for i in range(1, n+1):
+        fact *= i
+    return fact
 
 # def fact_rec(n):
 #     if n - 1 > 1:
@@ -36,6 +41,10 @@ def comb_perm(n, r, order=True, repetition=True):
 
 
 if __name__ == '__main__':
+    from timeit import timeit
     # for i in xrange(2, 11):
     #     print comb_perm(i, 2, order=False, repetition=False)
-    print comb_perm(5, 2, order=False, repetition=False)
+    # print comb_perm(5, 2, order=False, repetition=False)
+    print(timeit(stmt = 'fact(5)', setup = 'from __main__ import fact'))
+    print(timeit(stmt = 'fact1(5)', setup = 'from __main__ import fact1'))
+    print(timeit(stmt = 'fact_rec(5)', setup = 'from __main__ import fact_rec'))
